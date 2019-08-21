@@ -3,7 +3,6 @@
 	font-family: 'Raleway', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
-	background-color: black;
 }
 
 h1,
@@ -14,7 +13,7 @@ h5,
 h6 {
 	margin: 0;
 	font-weight: 600;
-	color: #474747;
+	color: #102070;
 }
 
 h1 {
@@ -43,7 +42,7 @@ h6 {
 
 p {
 	font-size: 14.1px;
-	color: #878787;
+	color: #102070;
 	line-height: 2.2;
 	font-weight: 500;
 }
@@ -204,7 +203,7 @@ ol {
 .main-menu ul li a {
 	display: inline-block;
 	font-size: 16px;
-	color: #fff;
+	color: #102070;
 	margin-left: 45px;
 	font-weight: 600;
 	padding: 20px 0 5px;
@@ -228,7 +227,7 @@ ol {
 ---------------------*/
 
 .hero-section {
-	height: 948px;
+	height: 760px;
 }
 
 .hero-text {
@@ -241,25 +240,11 @@ ol {
 	font-size: 60px;
 	font-weight: 500;
 	margin-bottom: 20px;
+	color: #102070;
 }
 
-.intro-newslatter input[type=text],
-.intro-newslatter input[type=email] {
-	height: 53px;
-	width: 30.4%;
-	padding: 0 30px;
-	margin-right: 22px;
-	float: left;
-	border: none;
-	font-size: 14px;
-}
-
-.intro-newslatter .site-btn {
-	min-width: 214px;
-}
-
-span{
-	margin-left: 690px;
+.hero-text p{
+	color: #102070;
 }
 /*------------------
   Categories section

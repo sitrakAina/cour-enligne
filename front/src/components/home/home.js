@@ -15,6 +15,12 @@ class Home extends Component {
 	 }
 
     render() {
+    	var img_url2 = 'image/2.jpeg';
+	    const style = {
+	      backgroundImage: 'url("'+img_url2+'")', 
+	      backgroundPosition: 'center center no-repeat',
+	      backgroundSize: 'cover',    
+	    };
         return ( 
         	<div className='body'>
         		<div id="preloder">
@@ -33,7 +39,7 @@ class Home extends Component {
 								</div>
 							</div>
 							<div className="col-lg-9 col-md-9">
-								<a href="" className="site-btn header-btn" onClick={this.togglePopup.bind(this)}>Hiditra</a>
+								<a href="" className="site-btn header-btn" onClick={this.togglePopup.bind(this)}>Login</a>
 								{this.state.showPopup ?
 						         <Login
 						          text='Click "Close Button" to hide popup'
@@ -43,39 +49,30 @@ class Home extends Component {
 						       }
 								<nav className="main-menu">
 									<ul>
-										<li><a href="#">Home</a></li>
-										<li><a href="#">About us</a></li>
-										<li><a href="#">Courses</a></li>
-										<li><a href="#">News</a></li>
-										<li><a href="#">Contact</a></li>
+										<li><a href="#">Acceul</a></li>
+										<li><a href="#">A propos</a></li>
+										<li><a href="#">Service</a></li>
+										<li><a href="#">Promotion</a></li>
+										<li><a href="#">Contacte</a></li>
 									</ul>
 								</nav>
 							</div>
 						</div>
 					</div>
 				</header>
-				<section class="hero-section set-bg" style={{ backgroundImage: `url(require("image/bg.jpg"))` }}>
+				<section class="hero-section set-bg" style={style}>
 					<div class="container">
 						<div class="hero-text text-white">
 							<h2>Mahazoana fampianarana maimaim-poana</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris 
 							scelerisque, at rutrum nulla <br/> dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
 						</div>
-						<div class="row">
-							<div class="col-lg-10 offset-lg-1">
-								<form class="intro-newslatter">
-									<input type="text" placeholder="Anarana"/>
-									<input type="text" class="last-s" placeholder="Mailaka"/>
-									<button class="site-btn">hisoratra</button>
-								</form>
-							</div>
-						</div>
 					</div>
 				</section>
 				<section class="categories-section spad">
 					<div class="container">
 						<div class="section-title">
-							<h2>Ireo sokajy misy antsika</h2>
+							<h2>Service</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
 						</div>
 						<div class="row">

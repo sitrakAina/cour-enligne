@@ -20,7 +20,7 @@
   background: white;
 }
 
-.popup .popup_inner span{
+.signup-warp .signup-form span{
   margin-left: 690px;
   color: red;
   cursor: pointer;
@@ -75,7 +75,7 @@
   border-bottom: 2px solid #d82a4e;
 }
 
-.site-btn {
+.site {
   display: inline-block;
   min-width: 196px;
   text-align: center;
@@ -89,7 +89,7 @@
   background: black;
 }
 
-.site-btn:hover {
+.site:hover {
   color: #fff;
 }
 
